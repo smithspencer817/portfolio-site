@@ -6,10 +6,55 @@
 
 .section {
     background-color: rgb(39, 7, 7);
+    height: 100vh;
+}
+
+.section-header {
+    height: 10vh;
+    position: relative;
+}
+
+.section-header h1 {
+    color: rgb(196, 196, 196);
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.section-body {
+    height: 90vh;
+}
+
+.section-content-container {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border-top: 1px solid rgb(196, 196, 196);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .red-letters {
     color: rgb(255, 58, 58);
+}
+
+.card-container {
+    height: 300px;
+    width: 200px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.project-card {
+    border: 1px solid white;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 /* -------------------- nav bar ----------------------*/
@@ -128,39 +173,6 @@
 
 /* -------------------- about me ----------------------*/
 
-#about-me-section {
-    height: 100vh;
-}
-
-#about-me-header {
-    height: 10vh;
-    position: relative;
-}
-
-#about-me-header h1 {
-    color: rgb(196, 196, 196);
-    margin-left: 10%;
-    position: absolute;
-    bottom: 0px;
-}
-
-#about-me-body {
-    height: 90vh;
-}
-
-#about-me-content-container {
-    margin: auto;
-    width: 80%;
-    height: 80%;
-    display: flex;
-    border-top: 1px solid rgb(196, 196, 196);
-    padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
 #spencer-pic {
     height: 300px;
     border-radius: 300px;
@@ -178,3 +190,6 @@
 #about-me-text-content p {
     margin-bottom: 20px;
 }
+
+/* -------------------- projects ----------------------*/
+
