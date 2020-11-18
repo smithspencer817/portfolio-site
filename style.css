@@ -1,18 +1,106 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.section {
+    background-color: rgb(39, 7, 7);
+}
+
+/* -------------------- nav bar ----------------------*/
+
+#home-page-nav-bar {
+    height: 10%;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+    background-color: white;
+}
+
+/* -------------------- home page ----------------------*/
 
 #home-page {
     height: 100vh;
 }
 
-#home-page-nav-bar {
-    height: 8%;
-    border: 1px solid red;
+#home-page-body {
+    height: 100%;
+    position: relative;
 }
 
-#home-page-body {
-    height: 92%;
-    border: 1px solid blue;
+#home-page-content-container {
+    width: 80%;
+    height: 60%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    bottom: 20%;
+}
+
+#home-page-content-container-text {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+#home-page-content-container-text p {
+    color: rgb(255, 58, 58);
+    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#home-page-content-container-text p:first-child {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#home-page-content-container-text p:last-child {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 150%;
+}
+
+#home-page-header {
+    color: white;
+}
+
+#home-page-sub-header {
+    color: rgb(150, 150, 150);
+}
+
+#home-page-content-container-resume {
+    position: absolute;
+    bottom: 10%;
+    height: 10%;
+    width: 40%;
+    border: 1px solid rgb(255, 58, 58);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 58, 58);
+    padding-top: 16px;
+}
+
+#home-page-content-container-resume:hover {
+    background-color: rgb(255, 58, 58);
+    transition: background-color 0.5s, color 0.5s;
+    color: white;
+}
+
+/* -------------------- about me ----------------------*/
+
+#about-me-section {
+    height: 100vh;
+    border-top: 1px solid white;
 }
