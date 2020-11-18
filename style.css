@@ -196,7 +196,7 @@ body {
 /* -------------------- projects ----------------------*/
 
 #project-section {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .project-title {
@@ -267,5 +267,29 @@ body {
 /* -------------------- education & experience ----------------------*/
 
 #education-and-experience {
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+#experience-content-container {
+    align-items: flex-start;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(196, 196, 196);
+    line-height: 150%;
+}
+
+.experience-container {
+    width: 500px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: rgb(53, 10, 10);
+}
+
+.experience-container h3 {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.experience-container h3, .experience-container h4 {
+    font-weight: 200;
 }
