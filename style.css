@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(39, 7, 7);
 }
@@ -86,8 +90,9 @@ body {
     align-items: center;
 }
 
-#nav-bar-links-container p {
+#nav-bar-links-container a {
     color: white;
+    text-decoration: none;
 }
 
 /* -------------------- home page ----------------------*/
@@ -266,7 +271,7 @@ body {
 
 /* -------------------- education & experience ----------------------*/
 
-#education-and-experience {
+#experience-section {
     margin-top: 150px;
 }
 
@@ -294,3 +299,6 @@ body {
 .experience-container h3, .experience-container h4 {
     font-weight: 200;
 }
+
+/* -------------------- blogs ----------------------*/
+
