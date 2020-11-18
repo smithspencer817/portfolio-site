@@ -64,6 +64,7 @@ body {
 #nav-bar-logo-container {
     width: 20%;
     position: relative;
+    margin-left: 20px;
 }
 
 #nav-bar-logo-container p {
