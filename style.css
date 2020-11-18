@@ -305,3 +305,34 @@ body {
 #blogs-section {
     margin-top: 150px;
 }
+
+.blog-card-container {
+    height: 250px;
+    width: 150px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.blog-card-container a {
+    text-decoration: none;
+}
+
+.blog-card {
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.blog-card h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.blog-card img {
+    width: 150px;
+}
