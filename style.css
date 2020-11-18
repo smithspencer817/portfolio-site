@@ -8,6 +8,10 @@
     background-color: rgb(39, 7, 7);
 }
 
+.red-letters {
+    color: rgb(255, 58, 58);
+}
+
 /* -------------------- nav bar ----------------------*/
 
 #home-page-nav-bar {
@@ -15,14 +19,37 @@
     z-index: 1;
     position: fixed;
     width: 100%;
-    border: 1px solid white;
     display: flex;
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    -o-filter: blur(1px);
-    filter: blur(1px);
-    background-color: white;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+}
+
+#nav-bar-logo-container {
+    width: 20%;
+    position: relative;
+}
+
+#nav-bar-logo-container p {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav-bar-links-container {
+    width: 80%;
+    margin: 20px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-bar-links-container p {
+    color: white;
 }
 
 /* -------------------- home page ----------------------*/
@@ -42,8 +69,9 @@
     position: relative;
     left: 10%;
     right: 10%;
-    top: 20%;
+    top: 25%;
     bottom: 20%;
+    max-width: 500px;
 }
 
 #home-page-content-container-text {
@@ -102,5 +130,51 @@
 
 #about-me-section {
     height: 100vh;
-    border-top: 1px solid white;
+}
+
+#about-me-header {
+    height: 10vh;
+    position: relative;
+}
+
+#about-me-header h1 {
+    color: rgb(196, 196, 196);
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#about-me-body {
+    height: 90vh;
+}
+
+#about-me-content-container {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border-top: 1px solid rgb(196, 196, 196);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#spencer-pic {
+    height: 300px;
+    border-radius: 300px;
+    opacity: 0.7;
+}
+
+#about-me-text-content {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(196, 196, 196);
+    line-height: 150%;
+    max-width: 700px;
+}
+
+#about-me-text-content p {
+    margin-bottom: 20px;
 }
