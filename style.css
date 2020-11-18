@@ -9,6 +9,11 @@
     height: 100vh;
 }
 
+.flex-section {
+    background-color: rgb(39, 7, 7);
+    overflow: visible;
+}
+
 .section-header {
     height: 10vh;
     position: relative;
@@ -43,18 +48,17 @@
 }
 
 .card-container {
-    height: 300px;
-    width: 200px;
-    border: 1px solid white;
+    height: 320px;
+    width: 220px;
+    text-align: center;
     position: relative;
+    padding: 20px;
 }
 
 .project-card {
     border: 1px solid white;
-    margin: 10px;
+    margin: auto;
     height: 100%;
-    width: 100%;
-    position: absolute;
 }
 
 /* -------------------- nav bar ----------------------*/
