@@ -287,7 +287,8 @@ body {
 
 .experience-container h3 {
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .experience-container h3, .experience-container h4 {
