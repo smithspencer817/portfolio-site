@@ -58,7 +58,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    backdrop-filter: blur(10px);
+    background-color: rgb(39, 7, 7);
 }
 
 #nav-bar-logo-container {
