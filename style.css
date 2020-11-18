@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#home-page {
+    height: 100vh;
+}
+
+#home-page-nav-bar {
+    height: 8%;
+    border: 1px solid red;
+}
+
+#home-page-body {
+    height: 92%;
+    border: 1px solid blue;
+}
