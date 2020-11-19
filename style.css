@@ -99,6 +99,7 @@ body {
 
 #home-page {
     height: 100vh;
+    min-height: 500px;
 }
 
 #home-page-body {
