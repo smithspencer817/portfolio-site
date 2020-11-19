@@ -108,13 +108,15 @@ body {
 
 #home-page-content-container {
     width: 80%;
-    height: 60%;
+    height: 370px;
     position: relative;
     left: 10%;
     right: 10%;
     top: 25%;
     bottom: 20%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 #home-page-content-container-text {
