@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(39, 7, 7);
+    background-color: rgb(26, 5, 5);
 }
 
 .section {
@@ -41,12 +41,12 @@ body {
 }
 
 .red-letters {
-    color: rgb(255, 58, 58);
+    color: rgb(228, 52, 52);
 }
 
 .card-container {
-    height: 320px;
-    width: 220px;
+    height: 450px;
+    width: 320px;
     text-align: center;
     position: relative;
     padding: 20px;
@@ -62,7 +62,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(39, 7, 7);
+    background-color: rgb(26, 5, 5);
 }
 
 #nav-bar-logo-container {
@@ -206,7 +206,8 @@ body {
 }
 
 .project-title {
-    color: rgb(73, 73, 73);
+    color: rgb(49, 49, 49);
+    font-size: 20px;
 }
 
 .project-card {
@@ -228,41 +229,42 @@ body {
 
 .project-description {
     height: 15%;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5px;
     padding: 10px;
     letter-spacing: 1px;
-    color: rgb(73, 73, 73);
+    color: rgb(41, 41, 41);
+    font-weight: 200;
 }
 
 .project-technologies {
     height: 15%;
     background-color: rgb(184, 184, 184);
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0% 5% 7% 5%;
     border-radius: 10px;
-    font-size: 15px;
+    display: flex;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-links {
-    height: 10%;
     display: flex;
     justify-content: space-around;
-    font-size: 14px;
+    font-size: 18px;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-top: 1px solid rgb(122, 122, 122);
 }
 
 .project-links a {
     text-decoration: none;
     color: rgb(73, 73, 73);
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .project-img {
@@ -272,7 +274,7 @@ body {
 }
 
 .demo-button {
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     background-color: gray;
     color: white !important;
@@ -296,7 +298,7 @@ body {
     width: 500px;
     margin-top: 70px;
     padding: 20px;
-    background-color: rgb(53, 10, 10);
+    background-color: rgba(255, 255, 255, 0.027);
 }
 
 .experience-container h3 {
@@ -313,6 +315,12 @@ body {
 
 #blogs-section {
     margin-top: 150px;
+}
+
+#blog-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .blog-card-container {
