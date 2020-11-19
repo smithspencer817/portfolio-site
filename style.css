@@ -115,8 +115,6 @@ body {
     top: 25%;
     bottom: 20%;
     max-width: 500px;
-    display: flex;
-    flex-direction: column;
 }
 
 #home-page-content-container-text {
