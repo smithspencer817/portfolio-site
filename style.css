@@ -208,6 +208,8 @@ body {
 .project-title {
     color: rgb(49, 49, 49);
     font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(122, 122, 122);
 }
 
 .project-card {
@@ -215,7 +217,7 @@ body {
     height: 100%;
     padding: 10px;
     background-color: rgb(196, 196, 196);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #project-container {
@@ -230,14 +232,15 @@ body {
 .project-description {
     height: 15%;
     font-size: 15px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 10px;
     letter-spacing: 1px;
-    color: rgb(41, 41, 41);
-    font-weight: 200;
+    color: rgb(20, 20, 20);
+    font-weight: 400;
 }
 
 .project-technologies {
@@ -258,19 +261,21 @@ body {
     justify-content: space-around;
     font-size: 18px;
     align-items: center;
+    
     border-top: 1px solid rgb(122, 122, 122);
 }
 
 .project-links a {
     text-decoration: none;
     color: rgb(73, 73, 73);
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .project-img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .demo-button {
