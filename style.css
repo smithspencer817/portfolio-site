@@ -131,15 +131,17 @@ body {
 }
 
 #home-page-content-container-text p:first-child {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 200;
 }
 
 #home-page-content-container-text p:last-child {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 15px;
     line-height: 150%;
     margin-bottom: 10px;
+    font-weight: 200;
 }
 
 #home-page-header {
@@ -187,11 +189,12 @@ body {
 
 #about-me-text-content {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     color: white;
     line-height: 150%;
     max-width: 700px;
+    font-weight: 200;
 }
 
 #about-me-text-content p {
